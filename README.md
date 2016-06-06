@@ -4,7 +4,7 @@ Ruby on Rails notes for myself
 
 ### Select between two dates
 ```
-Post.where(created_at: Date.yesterday..Date.tomorrow
+Post.where(created_at: Date.yesterday..Date.tomorrow)
 ```
 
 --
